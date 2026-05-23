@@ -180,14 +180,14 @@ rule-providers:
     format: yaml
     url: https://raw.githubusercontent.com/Spittingjiu/mihomo-custom-rules/main/my_proxylist.yaml?v=56018b363525
     path: ./ruleset/custom/my_proxylist.yaml
-    interval: 86400
+    interval: 3600
   my_whitelist:
     type: http
     behavior: classical
     format: yaml
     url: https://raw.githubusercontent.com/Spittingjiu/mihomo-custom-rules/main/my_whitelist.yaml?v=56018b363525
     path: ./ruleset/custom/my_whitelist.yaml
-    interval: 86400
+    interval: 3600
   private:
     type: http
     behavior: domain
