@@ -223,7 +223,6 @@ rules:
   - RULE-SET,gvt1,Google
 
   - RULE-SET,reject,REJECT
-  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 
   - RULE-SET,openai,ChatGPT
   - RULE-SET,youtube,YouTube分流
